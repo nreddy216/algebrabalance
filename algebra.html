@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Algebra</title>
+
+	</head>
+
+	<body>
+
+		<script src = 'matter_edited.js'></script>
+		<!--<script src = 'algebra.js'></script>-->
+		<script src = 'catapult.js'></script>
+		<link rel="stylesheet" href="algebra.css" type="text/css">
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
+		
+		<p>The Mystery Box has an unknown mass. Each small box weighs 1 lb.</p>
+		<p>Can you figure out how much the Mystery Box weighs?</p>
+
+
+
+		<div id="game">
+		</div>
+
+		<div id="equation">
+		</div>
+
+		<div id="answer">
+			<!-- <button id="showAnswer">Answer</button> -->
+			<form id = "enterAnswer">
+				<input name="typedAnswer" type = "text" >
+				<input name="Submit" type="button" value="Submit" onclick="isCorrect()" />
+				
+			</form>
+		</div>
+			<p></p>
+			<p></p>
+		<div id="footer">
+			<form id = "Refresh">
+				<input name="Refresh" type="submit" value="Next -->" />
+			</form>
+		</div>
+	</body>
+
+</html>
